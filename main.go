@@ -51,7 +51,6 @@ func main() {
 	} else {
 		validcheck(isvalidEmail, isvalidName, isvalidTickets)
 	}
-	//}
 	wg.Wait()
 
 }
