@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//var firstNames []string
+
 func event2() {
-	fmt.Println("No Error Message:")
+	fmt.Println("list of first names:")
 }

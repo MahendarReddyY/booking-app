@@ -46,7 +46,7 @@ func main() {
 
 		if RemainingTicekts == 0 {
 			fmt.Println("The tickets are sold out. Come back for the next year")
-			//break
+			event()
 		}
 	} else {
 		validcheck(isvalidEmail, isvalidName, isvalidTickets)
@@ -58,7 +58,11 @@ func main() {
 func firstname() {
 	firstNames := []string{}
 	for _, bookingList := range bookingList {
-		firstNames = append(firstNames, bookingList.firstName)
+		//firstNames = append(firstNames, bookingList.firstName)
+		event2()
+		fmt.Println(bookingList)
+		fmt.Println(firstNames)
+
 	}
 }
 
